@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Quize Game</title>
 </head>
 <body>
-    <h1>hello github</h1>
+    <div class="container">
+        <div class="screen active" id="start-screen">
+            <h1>Quize Time!</h1>
+            <p>Test your knowledge with this fun questions</p>
+            <button id="start-btn">Start Quize</button>
+
+        </div>
+        <div class="screen" id="quize-screen">
+            <div class="quize-header">
+                <h2 id="question-text">Question goes here</h2>
+                <div class="quize-info">
+                    <p>
+                        question <span id="current-question">1</span> of <span>5</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 </html>
